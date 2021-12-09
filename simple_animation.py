@@ -1,5 +1,6 @@
-# Simple Animation with Pygame, Brunswick Kyomari, 12-9-21, 9:01AM v0.2
+# Simple Animation with Pygame, Brunswick Kyomari, 12-9-21, 9:06AM v0.3
 
+from PyGamePractice import GREEN
 import pygame, sys, time
 from pygame.locals import
 
@@ -19,3 +20,9 @@ UPLEFT = 'upleft'
 UPRIGHT = 'upright'
 
 MOVESPEED = 4
+
+#Setup color values.
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
